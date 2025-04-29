@@ -12,7 +12,6 @@ A simple Android application that allows users to generate, display, and manage 
   - MVVM Architecture
   - Kotlin Coroutines
   - Clean code separation
-  - Android 7.0+ support (API 24+)
 
 ## 🛠️ Built With
 
