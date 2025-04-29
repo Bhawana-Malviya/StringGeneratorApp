@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RandomStringGeneratorApp</string>
+    <string name="random_string_generator">Random String Generator</string>
+    <string name="generate">Generate</string>
+    <string name="please_enter_valid_number">Please enter a valid number</string>
+    <string name="error">Error:</string>
+    <string name="no_random_strings_generated_yet">No random strings generated yet.</string>
+    <string name="clear_all">Clear All</string>
+    <string name="value">Value:</string>
+    <string name="length">Length:</string>
+    <string name="created_at">Created At:</string>
+    <string name="delete">Delete</string>
+    <string name="enter_number_hint">Enter a number to generate string</string>
+
+
+</resources>
