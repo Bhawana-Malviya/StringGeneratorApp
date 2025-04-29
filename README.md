@@ -21,7 +21,22 @@ A simple Android application that allows users to generate, display, and manage 
 - **MVVM & Flow**
 - **Coroutines for async tasks**
 - **Content Provider**
-  
+
+## 📦 Project Structure
+
+com.example.randomstringgeneratorapp/
+├── data/                               # Handles the data layer of the app (model, repository)
+│   ├── model/                          # Data classes (e.g., RandomStringData)
+│   ├── repository/                     # Repository that handles random string generation logic
+│   └── provider/                       # # Contains helper classes like RandomStringProviderHelper for fetching random string data from content providers
+├── ui/                                 # UI layer for the app (composable UI components, screens, and state)
+│   ├── screens/                        # Composable screen like RandomStringScreen
+│   ├── state/                          # Defines different UI states (Loading, Success, Error, Empty) for the RandomStringScreen
+│   └── theme/                          # Ttheme setup (colors, typography, etc.)
+├── viewmodel/                          # Contains ViewModel for managing UI state and business logic (e.g., RandomStringViewModel)
+├── MainActivity.kt                     # App entry point using Jetpack Compose
+
+
 ### Summary of Structure:
 
 - **data/** – Domain logic for managing data
